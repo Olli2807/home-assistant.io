@@ -22,6 +22,7 @@ The `fronius` integration polls a [Fronius](https://www.fronius.com/) solar inve
 ## Prerequisites
 
 You will need to either set a static IP on the Fronius device or assign a static DHCP lease for it, or alternatively access it through the local DNS name if your network is properly configured for this.
+For Gen24-Devices (delivered with Firmware >= 1.14.1): Make sure the "Solar API" in the inverters web interface is activated.
 
 {% include integrations/config_flow.md %}
 
